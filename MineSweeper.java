@@ -5,7 +5,7 @@ public class MineSweeper
 {
     Map<Integer, Cell> cells = new HashMap<Integer, Cell>();
     int cellCount = 4;
-    int MineCells = 0;
+    int MineCells = 1;
     int openCount = 0;
 
     public void start()
